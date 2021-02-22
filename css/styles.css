@@ -1,0 +1,80 @@
+
+h1, h2, h3, p, span, div {
+	font-family: "Comic Sans MS", Comic Sans, cursive;
+	color: black;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+
+#glava {
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+
+.navbar {
+	background-color: grey;
+	border-bottom: solid black 2px;
+}
+
+.navbar-toggle .icon-bar {
+	border: solid black 2px;
+}
+
+.navbar-default .navbar-toggle {
+ 	border-color: black;
+ 	border-width: 2px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: grey;
+}
+
+#main-content {
+	text-align: center;
+	min-height: 1000px;
+	background-color: grey;
+	margin: 20px;
+	padding: 10px;
+}
+
+#nav-list {
+	font-color: black;
+}
+
+#nav-list:hover {
+	display: none;
+}
+
+#collapsable-nav {
+	overflow: hidden;
+}
+
+ul > li {
+	border: solid black 1px;
+	margin: 0;
+	background-color: white;
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	padding-top: -5px;
+}
+
+.navbar-nav {
+	margin:-7px -15px;
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 767.98px)  {
+
+	#main-content {
+    margin: 10px 50px 10px 50px;
+  }
+}
+  /* End Home Page */
